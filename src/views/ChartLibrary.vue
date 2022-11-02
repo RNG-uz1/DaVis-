@@ -27,10 +27,10 @@
 
 <script>
 import Header from "../views/sys/Header.vue"
-import img1 from "@/assets/area-basic.png"
-import img2 from "@/assets/line-simple.png"
-import img3 from "@/assets/line-smooth.png"
-import img4 from "@/assets/line-stack.png"
+import img1 from "@/assets/cover/LineChart/area-basic.png"
+import img2 from "@/assets/cover/LineChart/line-simple.png"
+import img3 from "@/assets/cover/LineChart/line-smooth.png"
+import img4 from "@/assets/cover/LineChart/line-stack.png"
 
 export default {
   name: "ChartLibarary",
