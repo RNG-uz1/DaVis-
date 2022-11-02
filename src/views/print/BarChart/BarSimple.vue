@@ -94,7 +94,7 @@ export default {
             let evt = document.createEvent('HTMLEvents');
             evt.initEvent('click', true, true);
             if (this.title == '') {
-                aLink.download = randomString(16);
+                aLink.download = this.randomString(16);
             } else {
                 aLink.download =this.title
             }
@@ -151,7 +151,7 @@ export default {
             var $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';    /****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/
             var maxPos = $chars.length;
             var pwd = '';
-            for (i = 0; i < len; i++) {
+            for (let i = 0; i < len; i++) {
                 pwd += $chars.charAt(Math.floor(Math.random() * maxPos));
             }
             return pwd;
